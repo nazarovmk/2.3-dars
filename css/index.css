@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* {
+  cursor: all-scroll;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.main {
+  flex-grow: 1;
+}
+
+.container {
+  width: 100%;
+  max-width: 1380px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/* HEADER */
+.header {
+  background-color: #111111;
+}
+
+.header__top-of {
+  background-image: url("../images/homepage/hero-bg-desktop.jpg");
+  background-repeat: no-repeat;
+  width: 1440px;
+  height: 820px;
+}
+
+.header__ones-img {
+  padding-top: 65px;
+}
+.header__top {
+  margin-top: 153px;
+}
+.header__text {
+  width: 545px;
+  font-size: 80px;
+  font-weight: 300;
+  line-height: 80px;
+  letter-spacing: -1px;
+  color: #ffffff;
+}
+
+.header__texts {
+  padding-top: 20px;
+  width: 450px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.header__item {
+  margin-top: 40px;
+  width: 280px;
+  padding: 25px 55px 23px 54px;
+  border: 2px solid #ffffff;
+}
+
+.header__item:hover {
+  background-color: #fff;
+
+  .header__link {
+    color: #111111;
+  }
+}
+
+.header__link {
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 2.5px;
+  text-align: left;
+  color: #ffffff;
+}
+/* FOOTER TOP */
+.footer__top {
+  background-image: url("../images/booking/hero-bg-desktop@2x.jpg");
+  padding: 99px 165px 93px 165px;
+}
+.footer__reafy {
+  display: flex;
+}
+.footer__text {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -0.5px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.header__items {
+  margin-left: 250px;
+  width: 280px;
+  padding: 25px 55px 23px 54px;
+  border: 2px solid #ffffff;
+}
+
+.header__items:hover {
+  background-color: #fff;
+
+  .header__link {
+    color: #111111;
+  }
+}
+
+/* FOOTER BOTTOM */
+.footer__bottom {
+  padding: 78px 165px 76px 165px;
+  background-color: #111111;
+  justify-content: space-between;
+}
+
+.footer__sam {
+  display: flex;
+}
+
+.footer__list-ul {
+  padding-left: 193px;
+}
+
+.footer__ul-bottom {
+  padding-left: 124px;
+}
+
+.footer__link-a {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 2px;
+  color: #ffffff;
+}
+
+.footer__link-a:hover {
+  color: darkorange;
+}
