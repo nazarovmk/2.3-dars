@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;800;900&display=swap);
 * {
   margin: 0;
   padding: 0;
@@ -18,14 +19,19 @@ a {
   display: inline-block;
 }
 
+html {
+  height: 100%;
+  font-size: 62.5%; /* 10px=1rem */
+}
+
 body {
   height: 100%;
   display: flex;
   flex-direction: column;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
 }
 
 .main {
@@ -34,55 +40,54 @@ body {
 
 .container {
   width: 100%;
-  max-width: 1380px;
+  max-width: 138rem;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 50px;
-  padding-right: 50px;
 }
 
 /* HEADER */
 .header {
   background-color: #111111;
+  background-image: url("../images/homepage/hero-bg-desktop.jpg");
+  background-repeat: no-repeat;
+  background-position: top right;
 }
 
 .header__top-of {
-  background-image: url("../images/homepage/hero-bg-desktop.jpg");
-  background-repeat: no-repeat;
-  width: 1440px;
-  height: 820px;
+  width: 144rem;
+  height: 82rem;
 }
 
 .header__ones-img {
-  padding-top: 65px;
+  padding-top: 6.5rem;
 }
 .header__top {
-  margin-top: 153px;
+  margin-top: 15.3rem;
 }
 .header__text {
-  width: 545px;
-  font-size: 80px;
+  width: 54.5rem;
+  font-size: 8rem;
   font-weight: 300;
-  line-height: 80px;
+  line-height: 8rem;
   letter-spacing: -1px;
   color: #ffffff;
 }
 
 .header__texts {
-  padding-top: 20px;
-  width: 450px;
-  font-size: 20px;
+  padding-top: 2rem;
+  width: 45rem;
+  font-size: 2rem;
   font-weight: 400;
-  line-height: 30px;
+  line-height: 3rem;
   text-align: left;
   color: #ffffff;
 }
 
 .header__item {
-  margin-top: 40px;
-  width: 280px;
-  padding: 25px 55px 23px 54px;
-  border: 2px solid #ffffff;
+  margin-top: 4rem;
+  width: 28rem;
+  padding: 2.5rem 5.5rem 2.3rem 5.4rem;
+  border: 0.2rem solid #ffffff;
 }
 
 .header__item:hover {
@@ -94,13 +99,201 @@ body {
 }
 
 .header__link {
-  font-size: 17px;
+  font-size: 1.7rem;
   font-weight: 600;
-  line-height: 16px;
-  letter-spacing: 2.5px;
+  line-height: 1.6rem;
   text-align: left;
   color: #ffffff;
 }
+
+/* MAIN */
+.main__pattern-img {
+  padding-top: 25rem;
+}
+
+.main__img {
+  margin-top: -65rem;
+  padding-left: 16.5rem;
+}
+.main__df {
+  display: flex;
+  gap: 12.5rem;
+}
+
+.main__column {
+  flex-direction: column;
+  margin-top: 9rem;
+}
+
+.main__divide-img {
+  padding-top: 17.7rem;
+}
+.main__text-bold {
+  padding-top: 5.5rem;
+  font-family: "Spartan", sans-serif;
+  font-size: 4.8rem;
+  font-weight: 700;
+  line-height: 5.4rem;
+  color: #242b37;
+}
+
+.main__text {
+  padding-top: 2.7rem;
+  width: 44.5rem;
+  font-family: "Spartan", sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 3rem;
+  color: #242b37;
+}
+
+.main__texxt {
+  margin-top: 32rem;
+  margin-left: 16.5rem;
+}
+
+.main__curve-img {
+  padding-top: 44rem;
+}
+
+.main__lacallyp-img {
+  margin-left: 20rem;
+  margin-top: -63rem;
+}
+
+.main-for {
+  margin-top: -10rem;
+  background-color: #111111;
+  padding: 20rem 16.5rem 12rem 16.5rem;
+}
+
+.main__main-text {
+  padding-top: 5.5rem;
+  font-family: "Spartan", sans-serif;
+  font-size: 4.8rem;
+  font-weight: 700;
+  line-height: 4.8rem;
+  color: #ffffff;
+}
+.main__textr {
+  padding-top: 2.7rem;
+  font-family: "Spartan", sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 3rem;
+  color: #ffffff;
+}
+
+.main__bottom-df {
+  gap: 6.2rem;
+  display: flex;
+}
+
+.radios {
+  margin-top: 2.4rem;
+  margin-bottom: 2.4rem;
+  opacity: 15%;
+}
+
+.main__bottom-bold {
+  font-family: "Spartan";
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.4rem;
+  color: #ffffff;
+}
+
+.main__section {
+  overflow: clip;
+}
+
+.main__bottom-text {
+  font-family: "Spartan";
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.6rem;
+  color: #ffffff;
+}
+
+.main__bottom-images {
+  margin-left: -35rem;
+}
+
+.main__homepage-img {
+  margin-top: -18rem;
+  margin-left: 20rem;
+}
+
+.main__bottom-textt {
+  display: flex;
+}
+
+.main__right {
+  margin-left: 12.5rem;
+  margin-top: -12rem;
+  margin-bottom: 16rem;
+}
+
+.main__bottom-paragrf {
+  font-family: "Spartan";
+  font-size: 4.8rem;
+  font-weight: 700;
+  line-height: 4.8rem;
+  color: #242b37;
+}
+
+.main__bottom-paragrif {
+  padding-top: 1.9rem;
+  width: 49rem;
+  font-family: "Spartan";
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 3rem;
+  color: #242b37;
+}
+
+.header__itemm {
+  margin-top: 6rem;
+  width: 24.5rem;
+  padding: 2.5rem 1rem 2.3rem 5.4rem;
+  border: 2px solid #111111;
+  background-color: #111111;
+  list-style: none;
+}
+
+.header__linkk {
+  color: #ffffff;
+}
+
+.header__itemm:hover {
+  background-color: #fff;
+  color: #ffffff;
+
+  .header__linkk {
+    color: #111111;
+  }
+}
+
+.main__bottom-tex {
+  padding-top: 7.9rem;
+  font-family: "Spartan";
+  font-size: 1.7rem;
+  font-weight: 600;
+  line-height: 2.8rem;
+  letter-spacing: 0.25rem;
+  color: #4c4c4c;
+}
+.main__bottom-texts {
+  padding-top: 1.2rem;
+  font-family: "Spartan";
+  font-size: 1.7rem;
+  font-weight: 600;
+  line-height: 2.8rem;
+  letter-spacing: 0.25rem;
+  color: #4c4c4c;
+  opacity: 50%;
+}
+
 /* FOOTER TOP */
 .footer__top {
   background-image: url("../images/booking/hero-bg-desktop@2x.jpg");
@@ -110,19 +303,18 @@ body {
   display: flex;
 }
 .footer__text {
-  font-size: 48px;
+  font-size: 4.8rem;
   font-weight: 700;
-  line-height: 48px;
-  letter-spacing: -0.5px;
+  line-height: 4.8rem;
   text-align: left;
   color: #ffffff;
 }
 
 .header__items {
-  margin-left: 250px;
-  width: 280px;
-  padding: 25px 55px 23px 54px;
-  border: 2px solid #ffffff;
+  margin-left: 25rem;
+  width: 28rem;
+  padding: 2.5rem 5.5rem 2.3rem 5.4rem;
+  border: 0.2rem solid #ffffff;
 }
 
 .header__items:hover {
@@ -133,9 +325,13 @@ body {
   }
 }
 
+.main__bottom-column {
+  flex-direction: column;
+}
+
 /* FOOTER BOTTOM */
 .footer__bottom {
-  padding: 78px 165px 76px 165px;
+  padding: 7.8rem 16.5rem 7.6rem 16.5rem;
   background-color: #111111;
   justify-content: space-between;
 }
@@ -145,18 +341,18 @@ body {
 }
 
 .footer__list-ul {
-  padding-left: 193px;
+  padding-left: 19.3rem;
 }
 
 .footer__ul-bottom {
-  padding-left: 124px;
+  padding-left: 12.4rem;
 }
 
 .footer__link-a {
-  font-size: 14px;
+  font-size: 1.4rem;
   font-weight: 400;
-  line-height: 28px;
-  letter-spacing: 2px;
+  line-height: 2.8rem;
+  letter-spacing: 0.2rem;
   color: #ffffff;
 }
 
